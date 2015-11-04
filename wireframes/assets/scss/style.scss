@@ -1,0 +1,106 @@
+/*
+* Un-comment to use Compass mixins */
+//@import "compass";
+
+/*
+* Impprt Boostrap Overide - _bootstrap-overide.scss */
+//@import "ux-overide";
+
+/*
+* Impprt Boostrap Overide - _bootstrap-overide.scss */
+@import "bootstrap-overide";
+
+
+/* Default overrides */
+.margin-top-none {
+  margin-top: 0;
+}
+
+.margin-top-sml {
+  margin-top: 10px;
+}
+
+.margin-top-med {
+  margin-top: 20px;
+}
+
+.margin-top-lrg {
+  margin-top: 30px;
+}
+
+.margin-bot-none {
+  margin-bottom: 0px;
+}
+
+.margin-bot-sml {
+  margin-bottom: 10px;
+}
+
+.margin-bot-xsml {
+  margin-bottom: 5px;
+}
+
+.margin-bot-med {
+  margin-bottom: 20px;
+}
+
+.margin-bot-lrg {
+  margin-bottom: 30px;
+}
+
+.margin-right-sml {
+  margin-right: 5px;
+}
+
+.margin-right-med {
+  margin-right: 15px;
+}
+
+.margin-left-sml {
+  margin-left: 10px;
+}
+
+.margin-all-med {
+  margin: 15px;
+}
+
+.padding-all-med {
+  padding: 15px;
+}
+
+.padding-all-sml {
+  padding: 5px;
+}
+
+.padding-top-sml {
+  padding: 5px;
+}
+
+.padding-all-none {
+  padding: 0px;
+}
+
+.padding-left-med {
+  padding-left: 30px !important;
+}
+
+.x-small {
+  font-size: 70%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.navbar-brand {
+  font-size: 36px;
+}
+
+
+
+@media (min-width: 768px)
+  {
+  .container>.navbar-collapse {
+    margin-left: -15px;
+  }
+}
